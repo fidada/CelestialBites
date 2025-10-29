@@ -1,0 +1,216 @@
+.container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .container .div {
+    background-color: #ffffff;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+  }
+  
+  .container .text-wrapper {
+    color: #000000;
+    font-family: "Perandory-Regular", Helvetica;
+    font-size: 90px;
+    font-weight: 400;
+    height: 99px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .container .group {
+    height: 127px;
+    position: absolute;
+    width: 682px;
+  }
+  
+  .container .overlap-group {
+    background-color: #000000;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    height: 127px;
+    position: relative;
+    width: 680px;
+  }
+  
+  .container .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 50px;
+    font-weight: 500;
+    height: 61px;
+    left: 37px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+  }
+  
+  .container .bx-up-arrow {
+    height: 50px;
+    left: 600px;
+    position: absolute;
+    width: 50px;
+  }
+  
+  .container .overlap-wrapper {
+    height: 127px;
+    position: absolute;
+    width: 682px;
+  }
+  
+  .container .overlap-group-wrapper {
+    height: 127px;
+    position: absolute;
+    width: 682px;
+  }
+  
+  .container .div-wrapper {
+    height: 127px;
+    position: absolute;
+    width: 682px;
+  }
+  
+  .container .navbar {
+    background-color: #d9d9d9;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    width: 1440px;
+  }
+  
+  .container .celestial-bites {
+    color: #000000;
+    font-family: "Perandory-Regular", Helvetica;
+    font-size: 50px;
+    font-weight: 400;
+    height: 55px;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .container .span {
+    color: #000000;
+    font-family: "Perandory-Regular", Helvetica;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .container .text-wrapper-3 {
+    font-family: "Burgues Script-Regular", Helvetica;
+  }
+  
+  .container .text-wrapper-4 {
+    color: #000000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    height: 37px;
+    left: 606px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .container .text-wrapper-5 {
+    color: #000000;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    height: 37px;
+    left: 390px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .container .text-wrapper-6 {
+    color: #000000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    height: 37px;
+    left: 772px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .container .text-wrapper-7 {
+    color: #000000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    height: 37px;
+    left: 869px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .container .text-wrapper-8 {
+    color: #000000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    height: 37px;
+    left: 1000px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .container .group-2 {
+    height: 70px;
+    left: 1236px;
+    position: absolute;
+    width: 182px;
+  }
+  
+  .container .overlap-group-2 {
+    background-color: #d9d9d9;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 10px;
+    height: 70px;
+    position: relative;
+    width: 180px;
+  }
+  
+  .container .text-wrapper-9 {
+    color: #000000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 30px;
+    font-weight: 500;
+    height: 37px;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .container .solar-logout-bold {
+    height: 30px;
+    left: 15px;
+    position: absolute;
+    width: 30px;
+  }

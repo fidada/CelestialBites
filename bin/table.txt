@@ -1,0 +1,43 @@
+
+database table=
+table meja
+Field 	Type 	Null 	Key 	Default 	Extra 	
+id_meja 	varchar(50) 	NO 	PRI 	NULL 	
+harga_meja 	float 	YES 		NULL 	
+status 	enum('tersedia','tidak tersedia') 	NO 		NULL 
+
+table produk
+Field 	Type 	Null 	Key 	Default 	Extra 	
+id_produk 	int(11) 	NO 	PRI 	NULL 	auto_increment
+nama_produk 	varchar(255) 	NO 		NULL 	
+kategori 	enum('makanan','minuman') 	NO 		NULL 	
+harga_produk 	decimal(10,2) 	NO 		NULL 
+
+table reservasi
+Field 	Type 	Null 	Key 	Default 	Extra 	
+id_reservasi 	int(11) 	NO 	PRI 	NULL 	auto_increment
+user_id 	int(11) 	NO 	MUL 	NULL 	
+id_meja 	varchar(50) 	YES 	MUL 	NULL 	
+tanggal_reservasi 	date 	NO 		NULL 	
+waktu_reservasi 	time 	NO 		NULL 	
+harga_meja 	float 	YES 	MUL 	NULL 	
+
+table transaksi
+Field 	Type 	Null 	Key 	Default 	Extra 	
+id_transaksi 	int(11) 	NO 	PRI 	NULL 	auto_increment
+id_reservasi 	int(11) 	YES 	MUL 	NULL 	
+id_produk 	int(11) 	YES 	MUL 	NULL 	
+jumlah_pesanan 	int(11) 	NO 		NULL 	
+subtotal 	float 	NO 		NULL 
+
+////////// user //////////
+Field 	Type 	Null 	Key 	Default 	Extra 	
+user_id 	int(11) 	NO 	PRI 	NULL 	auto_increment
+username 	varchar(50) 	NO 		NULL 	
+nama 	varchar(100) 	YES 		NULL 	
+email 	varchar(100) 	NO 		NULL 	
+password 	varchar(100) 	NO 		NULL 	
+alamat 	varchar(200) 	YES 		NULL 	
+no_telp 	varchar(15) 	YES 		NULL 	
+role 	enum('customer','admin') 	NO 		NULL 
+

@@ -1,0 +1,17 @@
+.card-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 1rem; /* Adds space between the cards */
+}
+
+.card-carousel::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}
+
+.card {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    
+}
